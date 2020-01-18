@@ -1,6 +1,6 @@
 Name:           perl-CPAN-Meta-Requirements
 Version:        2.122
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Set of version requirements for a CPAN dist
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -74,6 +74,9 @@ make test TEST_FILES="t/*.t xt/*/*.t"
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.122-7
+- Mass rebuild 2013-12-27
+
 * Fri Jul 20 2012 Marcela Mašláňová <mmaslano@redhat.com> - 2.122-6
 - Conditionalize Test::*
 
